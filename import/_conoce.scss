@@ -1,0 +1,77 @@
+/*Conoce*/
+@import "./variables";
+
+.backgroundQuiensoy{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: $color2;
+    padding: 5%;
+}
+.quienSoy{
+    box-sizing: border-box;
+    background-color: $color4;
+    display: grid;   
+    grid-template-columns: auto auto;
+    padding: 2%;
+    width: 80%;
+    font-size: 80%;
+    color: $color3;
+    justify-content: center; 
+    border: solid 2px $color1;
+    .quienSoyImg img{
+        padding: 10%;
+    }
+    p{
+        margin-top:2%;
+        padding: 2%;
+    }
+}
+
+.titulo{
+    margin-top:5%;
+    margin-bottom: 2%;
+    display: flex;
+    color: $color3;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: $color2;
+    flex-direction: column; 
+}
+
+.saberMasBackground{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    color: black;
+    background-color: $color2;
+    width:70%;
+    border-radius: 8px;
+    padding: 2%;
+}
+
+.parrafosObjetivosFondo{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:$color4;
+    padding: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    .parrafosObjetivo {
+        padding: 2%;
+        background-color: $color3;
+        display: flex;
+        font-size: 90%;
+        color:$color1;
+        width: 80%;
+}
+}

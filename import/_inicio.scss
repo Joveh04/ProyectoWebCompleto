@@ -1,0 +1,133 @@
+/*Inicio*/
+@import "./variables";
+
+
+.saludoInicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+    background-color: $color2;
+    flex-direction: column; 
+    h1{
+     margin-top: 5%;
+     color: $color3;
+     padding: 3%;}
+    .buttonConoce{
+         display: flex;
+         justify-content: center;
+         padding:10px ;
+         text-decoration: none;
+         color: $color2;
+         border-radius: 10Px;
+        margin-bottom: 5%;
+ }  
+ 
+ }
+
+ .botones{
+     display: flex;
+     justify-content: center;
+     padding: 1%;
+ }
+ 
+ .cartaInicial{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     background-image: url(imagenes/imagenDesarrollo.png);
+     background-attachment: fixed;
+     background-size: 100% 100%;
+     .card-text{
+        color:$color3;
+     }
+ }
+
+ .card{
+     width: 45%;
+     display: flex;
+     margin-top: 10%;
+     margin-bottom: 10%;
+     background-color: $color4;
+     .card-header{
+         background-color: #000000;
+         color: $color2;
+         text-align: center;
+     }
+        
+     
+ }
+
+ .card-body{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+    p{
+        font-size: 14px;
+    } 
+ }
+
+ .card-body a:hover{
+     color: $color1;
+ }
+
+ .iconosIndex{
+     width: 100%;
+     background-color: $color2;
+ 
+ }
+ 
+ .infoIndex{
+     justify-content: center;
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto auto auto;
+     .titulo{
+        padding: 4px;
+     }
+ }
+
+ .parrafo2{
+     grid-row: 3/3;
+     width: 70%;
+     padding: 1%;
+     border: solid 2px $color1;
+     border-radius: 8px;
+     color: $color3;
+     background-color: $color4;
+     margin:1%;
+     margin-left: 10%;
+     margin-bottom: 5%;
+ }
+
+ .titulo{
+     background-color: $color2;
+     margin: 5%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+           grid-column: 1/3;
+ }
+
+ .parrafo1{
+     grid-row: 2/2;
+     width: 70%;
+     padding: 1%;
+     border: solid 2px $color1;
+     border-radius: 8px;
+     color: $color3;
+     background-color: $color4;
+     margin:1%;
+     margin-left: 10%;
+     margin-bottom: 5%;
+ }
+ 
+ .parrafoIndex3{
+     grid-row: 2/4;
+     font-size: 50px;
+     color: $color1;
+     margin-top: 10%;
+     margin-right: 5%;
+ }

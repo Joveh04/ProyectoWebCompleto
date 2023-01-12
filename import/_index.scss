@@ -1,0 +1,36 @@
+/*Index*/
+@import "./variables";
+
+.bodyIndex{
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75));
+    background-image:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+    url(imagenes/imagenDesarrollo.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.tituloIndex{
+    margin-top: 5%;
+    padding: 0.5%;
+    background-color: $color2;
+    color: $color3;
+    border-radius: 4px;
+}
+.ParrafoIndex{
+    margin: 4%;
+    width: 80%;
+    padding: 2%;
+    border: solid $color1;
+    background-color: black;
+    color: $color3;
+}
+
+.tarjetaIndex a:hover{
+    color: $color1;    
+    }
+
+.card{
+    background-color: $color2;
+
+
+}

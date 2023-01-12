@@ -1,0 +1,635 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #fff;
+}
+
+.titulo {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: violet;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 1%;
+  font-size: 80%;
+  border-top: 2px solid purple;
+  background: rgb(0, 0, 0);
+  color: gray;
+  grid-area: footer;
+  margin-bottom: 0%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Botones*/
+.buttonServicio {
+  width: 25%;
+}
+
+.buttonServicio a:hover {
+  color: purple;
+}
+
+.buttonConoce, .buttonContacto {
+  padding: 2%;
+}
+
+.buttonConoce a:hover, .buttonContacto a:hover {
+  color: purple;
+}
+
+/*Inicio*/
+.saludoInicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: violet;
+  flex-direction: column;
+}
+.saludoInicial h1 {
+  margin-top: 5%;
+  color: white;
+  padding: 3%;
+}
+.saludoInicial .buttonConoce, .saludoInicial .buttonContacto {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+  color: violet;
+  border-radius: 10Px;
+  margin-bottom: 5%;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.cartaInicial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(imagenes/imagenDesarrollo.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.cartaInicial .card-text {
+  color: white;
+}
+
+.card {
+  width: 45%;
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: rgb(54, 54, 54);
+}
+.card .card-header {
+  background-color: #000000;
+  color: violet;
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card-body p {
+  font-size: 14px;
+}
+
+.card-body a:hover {
+  color: purple;
+}
+
+.iconosIndex {
+  width: 100%;
+  background-color: violet;
+}
+
+.infoIndex {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+.infoIndex .titulo {
+  padding: 4px;
+}
+
+.parrafo2 {
+  grid-row: 3/3;
+  width: 70%;
+  padding: 1%;
+  border: solid 2px purple;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(54, 54, 54);
+  margin: 1%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.titulo {
+  background-color: violet;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-column: 1/3;
+}
+
+.parrafo1 {
+  grid-row: 2/2;
+  width: 70%;
+  padding: 1%;
+  border: solid 2px purple;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(54, 54, 54);
+  margin: 1%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.parrafoIndex3 {
+  grid-row: 2/4;
+  font-size: 50px;
+  color: purple;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
+/*Conoce*/
+.backgroundQuiensoy {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: violet;
+  padding: 5%;
+}
+
+.quienSoy {
+  box-sizing: border-box;
+  background-color: rgb(54, 54, 54);
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2%;
+  width: 80%;
+  font-size: 80%;
+  color: white;
+  justify-content: center;
+  border: solid 2px purple;
+}
+.quienSoy .quienSoyImg img {
+  padding: 10%;
+}
+.quienSoy p {
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.titulo {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: violet;
+  flex-direction: column;
+}
+
+.saberMasBackground {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  color: black;
+  background-color: violet;
+  width: 70%;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+.parrafosObjetivosFondo {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(54, 54, 54);
+  padding: 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.parrafosObjetivosFondo .parrafosObjetivo {
+  padding: 2%;
+  background-color: white;
+  display: flex;
+  font-size: 90%;
+  color: purple;
+  width: 80%;
+}
+
+/* Servicio*/
+.imagenesServicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+  background-color: #000000;
+}
+
+.imagenesServicio img {
+  margin: 1%;
+  border-radius: 8px;
+}
+
+.contenedorServicioParrafo1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54, 54, 54);
+  width: 100%;
+  margin: 4%;
+  padding: 2%;
+}
+.contenedorServicioParrafo1 .servicioParrafo1 {
+  background-color: purple;
+  color: white;
+  width: 60%;
+  padding: 2%;
+  border-radius: 8px;
+}
+
+.soluciones {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  padding: 2%;
+  background-image: url(imagenes/parallax.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border-top: solid purple;
+  border-bottom: solid purple;
+}
+
+.costosImg {
+  border-radius: 4px;
+  border: solid purple;
+}
+
+.parrafosGrandes1, .parrafosGrandes3, .parrafosGrandes2 {
+  padding: 2%;
+  text-align: center;
+  font-size: 40px;
+  color: purple;
+}
+
+.botonesRedes {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.saberMasBackground {
+  border-radius: 8px;
+}
+
+.imgCostosBox {
+  display: flex;
+  justify-content: center;
+}
+
+.costosCard, .costosCard3, .costosCard2 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2%;
+  width: 20%;
+  background-color: rgb(54, 54, 54);
+  padding: 2%;
+  border-radius: 8px;
+}
+.costosCard img, .costosCard3 img, .costosCard2 img {
+  width: 90%;
+  border-radius: 8px;
+  border: solid purple;
+  margin-bottom: 2%;
+}
+.costosCard p, .costosCard3 p, .costosCard2 p {
+  color: white;
+  font-size: 14px;
+}
+
+.EnlaceContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  color: #000000;
+  border-radius: 4px;
+  margin: 5%;
+  padding: 2%;
+}
+
+/*Contacto*/
+.parrafoContactoBackground {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54, 54, 54);
+}
+.parrafoContactoBackground .ParrafoContacto {
+  box-sizing: border-box;
+  padding: 2%;
+  background-color: black;
+  color: purple;
+  width: 80%;
+}
+
+.formulario {
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  color: violet;
+}
+
+/*Map para botones que redirigen a Contacto*/
+.btn-twitter {
+  background-color: #55acee;
+}
+
+.btn-facebook {
+  background-color: #3a5795;
+}
+
+.btn-whatsapp {
+  background-color: #30c266;
+}
+
+/*Nav*/
+nav {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  background: rgb(0, 0, 0);
+  border-bottom: solid purple;
+  justify-content: space-between;
+  grid-area: nav;
+}
+nav .logo {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+nav .logo a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  display: flex;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+/*Index*/
+.bodyIndex {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(imagenes/imagenDesarrollo.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.tituloIndex {
+  margin-top: 5%;
+  padding: 0.5%;
+  background-color: violet;
+  color: white;
+  border-radius: 4px;
+}
+
+.ParrafoIndex {
+  margin: 4%;
+  width: 80%;
+  padding: 2%;
+  border: solid purple;
+  background-color: black;
+  color: white;
+}
+
+.tarjetaIndex a:hover {
+  color: purple;
+}
+
+.card {
+  background-color: violet;
+}
+
+.btn-twitter {
+  margin: 2%;
+  padding: 1%;
+  border-radius: 4px;
+  background-color: #55acee;
+}
+.btn-twitter a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-facebook {
+  margin: 2%;
+  padding: 1%;
+  border-radius: 4px;
+  background-color: #3a5795;
+}
+.btn-facebook a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-whatsapp {
+  margin: 2%;
+  padding: 1%;
+  border-radius: 4px;
+  background-color: #30c266;
+}
+.btn-whatsapp a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.whatsApp {
+  width: 50%;
+  display: flex;
+}
+
+/*Variables*/
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+  .infoIndex {
+    justify-content: center;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+  }
+  .titulo {
+    margin-left: 10%;
+    grid-row: 1/2;
+  }
+  .parrafo2 {
+    margin-left: 15%;
+    grid-row: 3/4;
+  }
+  .parrafo1 {
+    margin-left: 15%;
+    grid-row: 2/3;
+  }
+  .parrafoIndex3 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    font-size: 30px;
+    grid-row: 4/5;
+  }
+  /*Conoce*/
+  .quienSoy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*Servicio*/
+  .contenedorServicioParrafo1 .servicioParrafo1 {
+    width: 90%;
+    padding: 2%;
+    border-radius: 8px;
+  }
+  .imagenesServicio img {
+    width: 120px;
+    height: 120px;
+  }
+  .imgCostos {
+    width: 80%;
+  }
+  .imgCostos img {
+    padding: 2%;
+    width: 150px;
+    height: 150px;
+  }
+  .costosImg {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .costosImg img {
+    width: 200px;
+  }
+  img {
+    width: 200px;
+  }
+  .card {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 70%;
+  }
+  .buttonServicio {
+    width: 50%;
+  }
+  .parrafosGrandes1, .parrafosGrandes2, .parrafosGrandes3 {
+    font-size: 24px;
+  }
+  .formulario {
+    width: 80%;
+  }
+  .bodyIndex {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(imagenes/imagenDesarrollo.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .imgCostosBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .imgCostosBox .costosCard, .imgCostosBox .costosCard2, .imgCostosBox .costosCard3 {
+    width: 60%;
+  }
+}
+@media (max-width: 400px) {
+  nav ul li a {
+    line-height: 80px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .imagenesServicio img {
+    width: 100px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */

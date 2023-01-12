@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  body {
+    padding: 0%;
+    margin: 0%;
+    background-image: url(imagenDesarrollo.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  nav{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    background:rgb(0, 0, 0);
+    border-bottom: solid violet;
+    justify-content: space-between; 
+    grid-area: nav;
+  }
+.logo{
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+      
+        margin-left: 20px;
+        height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        
+}
+ul{
+  list-style: none;
+  float: right;
+  display: flex
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+nav ul li a{
+    line-height: 80px;
+    color:white;
+    padding:15px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color:purple;
+}
+#calculadora{
+
+  border: solid purple;
+  border-radius: 4px;
+  background-color: black;
+  color: purple;
+  padding: 2%;
+  margin: 3%;
+}
+#log{
+  border: solid purple;
+  border-radius: 4px;
+  background-color: black;
+  color: purple;
+  padding: 2%;
+  margin: 3%;
+}
+#sueldos{
+
+  border: solid purple;
+  border-radius: 4px;
+  background-color: black;
+
+  color: purple;
+  padding: 4%;
+  margin: 5%;
+}
+button{
+  margin-top: 3%;
+  background-color: purple;
+  border-radius: 4px;
+  color: black;
+  padding: 1%;
+  
+}
+  
+  footer {
+    padding: 1%;
+    font-size: 80%;
+    border-top: 2px solid purple;
+    background: rgb(0, 0, 0);
+    color: gray;
+    grid-area: footer;
+    margin-bottom: 0%;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #historilDeCalculos{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    background-color: violet;
+    width: 100%;
+    font-size: 10px;
+    padding: 3%;
+  }
+  
+  .saludoInicial{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: violet;
+    color: white;
+    width: 100%;
+  
+  }
+
+  .saludoInicial p{
+    width: 50%;
+  }
+
+  #cajaHistorial{
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+  }
+  #cajaHistorial.p{
+    font-size: 12px;
+  }
+ input{
+  margin-top: 2px;
+ }
+/*conoce*/
+
+
+ button:hover{
+  color: gray;
+ } 
